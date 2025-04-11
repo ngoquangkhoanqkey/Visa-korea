@@ -1,0 +1,1317 @@
+<!DOCTYPE html><html xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3" xml:lang="vi" lang="vi" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8">
+	<title>KOREA VISA APPLICATION CENTER HCMC</title>
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="publisher" content="[UPLEAT] UI Dev Team">
+	<meta name="author" content="Yong Hyun Sik">
+	<link rel="shortcut icon" href="images/Favicon.ico">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/pages.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/dev.css">
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="/css/ie8.css?version=20190125" />
+	<![endif]-->
+</head>
+<body>
+
+<div>
+<!-- Skip -->
+    <div class="skip">
+        <div class="skip__navs">
+            <a href="/" class="skip__nav">본문 내용 바로가기</a>
+            <a href="/" class="skip__nav">주 메뉴 바로가기</a>
+        </div>
+    </div>
+    <!-- //Skip -->
+    <!-- Header -->
+    <div class="header">
+        <div class="header__info">
+            <div class="header__aligner">
+                <div class="header__site">
+                    <h1 class="page">
+                        <a href="/" class="page__names">
+                            <span class="page__name">
+                                <span class="page__logo_vn -china">Korea visa Application Center</span>
+                                
+                            </span>
+                            <span class="page__name">
+                            	<span>KOREA VISA APPLICATION CENTER HCMC</span>
+                            </span>
+                        </a>
+                        
+                    </h1>
+                </div>
+        
+                <div class="header__tools">
+                    <div class="header__tool">
+                        <h2 class="_hidden">언어설정</h2>
+                        <div class="bridge -lang">
+                        	
+                            
+                            
+                            <button type="button" class="bridge__name">tiếng Việt</button>
+                            <ul class="bridge__options">
+                            	<li class="bridge__option"><a href="javascript:jsMoveLang('ko')" class="bridge__value">한국어</a></li>
+                                <li class="bridge__option"><a href="javascript:jsMoveLang('en')" class="bridge__value">ENGLISH</a></li>
+                                <li class="bridge__option"></li>
+                                <li class="bridge__option"><a href="javascript:jsMoveLang('vn')" class="bridge__value">tiếng Việt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="header__tool">
+                        <h2 class="_hidden">센터 바로가기</h2>
+                        <div class="bridge -center">
+                            <!-- button type="button" class="bridge__name">센터 선택</button-->
+                            <button type="button" class="bridge__name">Hồ Chí Minh</button>
+                            
+                            <ul class="bridge__options">
+                                
+								
+								
+								
+								
+								<li class="bridge__option"><a href="http://visaforkorea-vt.com" class="bridge__value">Hà Nội</a></li>
+								<li class="bridge__option"><a href="http://visaforkorea-hc.com" class="bridge__value">Hồ Chí Minh</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="header__nav">
+            <!-- GNB -->
+            <div id="gnb" class="gnb">
+                <div class="gnb__aligner">
+                    <ul class="gnb__folders">
+                        <li class="gnb__folder">
+                            <a href="/info/center" class="gnb__folder-name">Thông tin về trung tâm</a>
+                            <ul class="gnb__list">
+                                <li class="gnb__item"><a href="/info/center" class="gnb__link">Giới thiệu trung tâm</a></li>
+                                <li class="gnb__item"><a href="/info/visit" class="gnb__link">Thời gian làm việc và vị trí Trung tâm</a></li>
+                                <li class="gnb__item"><a href="/info/service" class="gnb__link">Lệ phí nộp hồ sơ và dịch vụ hỗ trợ</a></li>
+                                <li class="gnb__item">
+                                	<a href="https://www.visa.go.kr/openPage.do?MENU_ID=10101" target="_blank" class="gnb__link">Hướng dẫn các loại Visa</a>
+                                </li>
+                                <li class="gnb__item">
+                                	<a href="http://overseas.mofa.go.kr/vn-hochiminh-ko/brd/m_4020/list.do" target="_blank" class="gnb__link">Hướng dẫn hồ Visa của Tổng lãnh sự</a>
+                                </li>
+                                <li class="gnb__item"><a href="/info/visasample" class="gnb__link">Hướng dẫn điền đơn xin cấp Visa</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb__folder">
+                            <a href="/visacenter/booking/insert" class="gnb__folder-name">Đặt lịch hẹn</a>
+                            <ul class="gnb__list">
+                                <li class="gnb__item"><a href="/visacenter/booking/insert" class="gnb__link">Tra cứu lịch đặt hẹn</a></li>
+                                <li class="gnb__item"><a href="/visacenter/booking/search" class="gnb__link">Lịch hẹn được đăng ký</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="gnb__folder">
+                            <a href="https://www.visa.go.kr/openPage.do?MENU_ID=10301" target="_blank" class="gnb__folder-name">Tra cứu kết quả Visa</a>
+                            <ul class="gnb__list">
+                                <li class="gnb__item"><a href="https://www.visa.go.kr/openPage.do?MENU_ID=10301" target="_blank" class="gnb__link">Tra cứu kết quả Visa</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb__folder">
+                            <a href="/customercenter/notice/list" class="gnb__folder-name">Trung tâm khách hàng</a>
+                            <ul class="gnb__list">
+                                <li class="gnb__item"><a href="/customercenter/notice/list" class="gnb__link">Thông báo</a></li>
+                                <li class="gnb__item"><a href="/customercenter/faq/list/" class="gnb__link">Câu hỏi thường gặp</a></li>
+                                <li class="gnb__item"><a href="/customercenter/qna/list/" class="gnb__link">Hỏi đáp</a></li>
+                                <li class="gnb__item"><a href="/customercenter/counsel/insert?terms_type=01" class="gnb__link">Tư vấn 1:1</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb__folder">
+                            <a href="/tour/" class="gnb__folder-name">Thông tin du lịch</a>
+                            <ul class="gnb__list">
+                            	<li class="gnb__item"><a href="/tour/" class="gnb__link">Thông tin du lịch</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('76', '01')">Tourist Attractions</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('78', '02')">Cultural Facilities</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('85', '03')">Festivals/Events/Performances</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('77', '04')">Transportation</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('75', '05')">Leisure/Sports</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('80', '06')">Accommodation</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('82', '08')">Dining</a></li>
+                                <li class="gnb__item"><a href="#none" class="gnb__link" onclick="javascript:jsTourMenuMove('79', '07')">Shopping </a></li>
+<!--                                 <li class="gnb__item" ><a href="#none" class="gnb__link" th:onclick="|javascript:jsTourMenuGuide('#{tour.content.type09.value}','09')|" th:text="#{tour.content.type09}">가이드북</a></li> -->
+                            </ul>
+                        </li>
+						<!--                         
+                        <li class="gnb__folder" th:if="${pageParam.center_cd} == 'B00005'">
+                        	<a href="javascript:;" class="gnb__folder-name" th:text="#{menu.ap}">비자신청</a>
+                        	<ul class="gnb__list">
+                        		<li class="gnb__item" ><a href="https://wwwtest.e-visaforkorea.com/login?centerId=QINGDAO" target="_blank" class="gnb__link" th:text="#{menu.ap.01}" >온라인 신청/조회</a></li>
+                        		<li class="gnb__item" ><a href="https://wwwtest.e-visaforkorea.com/visaInquiry?centerId=QINGDAO" target="_blank" class="gnb__link" th:text="#{menu.ap.02}" >오프라인 접수 조회</a></li>
+                        	</ul>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+            <!-- //GNB -->
+        </div>
+    </div>
+    <!-- //Header -->
+
+<div class="main">
+	<form id="linkFrm" name="linkFrm">
+	</form>
+    <form id="searchForm" name="searchForm" method="post">
+	 	<input type="hidden" name="search_start_dt">
+	 	<input type="hidden" name="search_end_dt">
+	   	<input type="hidden" name="search_key">
+	   	<input type="hidden" name="search_val">
+	</form>
+    <!-- ad -->
+    <div class="ad -active  -ad1" id="popUp_3">
+        <div class="ad__aligner">
+            <div class="ad__header">
+            	<span>
+                	
+                	
+                	
+                	<h2 class="ad__heading">THÔNG BÁO THAY ĐỔI HƯỚNG DẪN HỒ SƠ XIN VISA DU LỊCH, THƯƠNG MẠI NGẮN HẠN (C-3-4), TỔNG HỢP NGẮN HẠN (C-3-1) ( ÁP DỤNG 01/01/2025)</h2>
+                </span>	
+                <button type="button" class="ad__close js-popup-close" onclick="javascript:popUpClose('popUp_3')">팝업닫기</button>
+            </div>
+            <!--  html 팝업  -->
+            <div class="ad__contents">
+                <!-- h3 class="ad__h3" th:switch="${lang}">
+                	<span th:case="ko" th:text="${popUpMap.title_ko}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="en" th:text="${popUpMap.title_en}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="cn" th:text="${popUpMap.title_cn}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="vn" th:text="${popUpMap.title_vn}">레이어 팝업 정보 카테고리</span>
+                </h3-->
+                <ul class="list -color-bullet _gutter">
+                    
+                    
+                    
+                    <p class="p"></p><ul class="list -color-bullet _gutter" style="list-style: none; margin-top: 10px !important;"><h3 class="view__subject" style="line-height: 1.2;"><ul class="list -color-bullet _gutter" style="list-style: none; margin-top: 10px !important;"><ul class="list -color-bullet _gutter" style="list-style: none; color: rgb(51, 51, 51); font-size: 18px; letter-spacing: -1px; margin-top: 10px !important;"><p style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; font-family: " noto="" sans="" korean",="" sans-serif;"=""><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Trung tâm đăng ký visa Hàn Quốc xin kính chào quý khách!</span></p><p style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; font-family: " noto="" sans="" korean",="" sans-serif;"=""><br></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span lang="EN-US" style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: " times="" new="" roman";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" letter-spacing:="" 0pt;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"="">Tổng Lãnh sự quán Hàn Quốc tại TP. HCM thực hiện việc thay đổi hồ sơ khi nộp đăng ký visa với mục đích du lịch (C-3), công tác thương mại (C-3-4), tổng hợp ngắn hạn (C-3-1). Xin vui lòng tham khảo nội dung bên dưới.</span></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span lang="EN-US" style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: " times="" new="" roman";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" letter-spacing:="" 0pt;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><br></span></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span lang="EN-US" style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: " times="" new="" roman";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" letter-spacing:="" 0pt;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"="">- Visa du lịch:�</span><a href="https://www.visaforkorea-hc.com/customercenter/notice/view/907"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Hướng dẫn hồ sơ xin visa du lịch (C-3)</span></a></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span style="font-size: 14px; font-family: " times="" new="" roman";"="">﻿- Visa công tác thương mại ngắn hạn:�</span><a href="https://www.visaforkorea-hc.com/customercenter/notice/view/908"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Hướng dẫn hồ sơ xin visa công tác thương mại ngắn hạn (C-3-4)</span></a></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span style="font-size: 14px; font-family: " times="" new="" roman";"="">- Visa tổng hợp ngắn hạn:�</span><a href="https://www.visaforkorea-hc.com/customercenter/notice/view/910"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Hướng dẫn hồ sơ xin visa tổng hợp ngắn hạn (C-3-1)</span></a></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span style="font-size: 14px; font-family: " times="" new="" roman";"="">﻿</span></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><br></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: " times="" new="" roman";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" letter-spacing:="" 0pt;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"="">■�</span><span lang="EN-US" style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: " times="" new="" roman";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" letter-spacing:="" 0pt;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"="">Áp dụng từ ngày 01.01.2025</span></p><p class="0" style="margin-bottom: 0px; font-size: 15px; font-weight: 400; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">�</span></p><p class="0" style="margin-bottom: 0px; font-size: 15px; letter-spacing: normal; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: " open="" sans",="" roboto,="" "noto="" "microsoft="" yahei="" new",="" yahei",="" 微软雅黑,="" 宋体,="" simsun,="" stxihei,="" 华文细黑,="" "sans-serif";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"=""><br></p><div style="font-size: 15px; font-weight: 400; letter-spacing: normal;"><span lang="EN-US" style="border: 0px; font-style: italic; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: " times="" new="" roman";="" font-optical-sizing:="" inherit;="" font-kerning:="" font-feature-settings:="" font-variation-settings:="" letter-spacing:="" 0pt;="" background-image:="" initial;="" background-position:="" background-size:="" background-repeat:="" background-attachment:="" background-origin:="" background-clip:="" initial;"="">Xin cảm ơn.</span></div></ul></ul></h3></ul><p></p>
+                </ul>
+                
+                
+                
+                
+            </div>
+            
+            <!--  image 팝업  -->
+            
+            
+            <div class="ad__footer">
+                <input type="checkbox" name="chk_Period_3;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" id="chk_Period_3;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="selection" onclick="javascript:popUpCheckClose(3)" value="7">
+                <label for="chk_today1" class="selection__label">
+                	
+                    
+                    <span class="p">Không xem trong vòng 7 ngày</span>
+                </label>
+            </div>
+            
+        </div>
+    </div>
+    <div class="ad -active  -ad2" id="popUp_2">
+        <div class="ad__aligner">
+            <div class="ad__header">
+            	<span>
+                	
+                	
+                	
+                	<h2 class="ad__heading">THÔNG BÁO LIÊN QUAN ĐẾN VIỆC ĐĂNG KÝ XIN VISA</h2>
+                </span>	
+                <button type="button" class="ad__close js-popup-close" onclick="javascript:popUpClose('popUp_2')">팝업닫기</button>
+            </div>
+            <!--  html 팝업  -->
+            <div class="ad__contents">
+                <!-- h3 class="ad__h3" th:switch="${lang}">
+                	<span th:case="ko" th:text="${popUpMap.title_ko}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="en" th:text="${popUpMap.title_en}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="cn" th:text="${popUpMap.title_cn}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="vn" th:text="${popUpMap.title_vn}">레이어 팝업 정보 카테고리</span>
+                </h3-->
+                <ul class="list -color-bullet _gutter">
+                    
+                    
+                    
+                    <p class="p"></p><p style="margin-top: 1em; margin-bottom: 1em;"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Trung tâm đăng ký visa Hàn Quốc xin kính chào quý khách!</span></p><p style="margin-top: 1em; margin-bottom: 1em;"><span style="font-size: 15px;"><br></span></p><p style="margin-top: 1em; margin-bottom: 1em;"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Trung tâm xin tóm tắt một số thông tin cơ bản liên quan đến việc đăng ký visa và trả kết quả, vui lòng tham khảo thông báo qua link bên dưới.�</span></p><p style="margin-top: 1em; margin-bottom: 1em;"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Thông tin chi tiết vui lòng xem tại Câu hỏi thường gặp và Thông báo.�</span></p><p style="margin-top: 1em; margin-bottom: 1em;"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Xem thông tin liên quan đến việc đăng ký visa�</span><a href="https://www.visaforkorea-hc.com/customercenter/notice/view/872?lang=vn" target="_blank"><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">tại đây</span></a></p><p style="margin-top: 1em; margin-bottom: 1em;"><br></p><p style="margin-top: 1em; margin-bottom: 1em;"><span style="font-size: 14px; font-family: " times="" new="" roman";"="">Xin cám ơn.�</span></p><div><br></div><p></p>
+                </ul>
+                
+                
+                
+                
+            </div>
+            
+            <!--  image 팝업  -->
+            
+            
+            <div class="ad__footer">
+                <input type="checkbox" name="chk_Period_2;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" id="chk_Period_2;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="selection" onclick="javascript:popUpCheckClose(2)" value="1">
+                <label for="chk_today1" class="selection__label">
+                	<span class="p">Không xem lại trong hôm nay</span>
+                    
+                    
+                </label>
+            </div>
+            
+        </div>
+    </div>
+    <div class="ad -active  -ad3" id="popUp_4">
+        <div class="ad__aligner">
+            <div class="ad__header">
+            	<span>
+                	
+                	
+                	
+                	<h2 class="ad__heading">THÔNG BÁO MỞ RỘNG VIỆC ĐẶT LỊCH HẸN</h2>
+                </span>	
+                <button type="button" class="ad__close js-popup-close" onclick="javascript:popUpClose('popUp_4')">팝업닫기</button>
+            </div>
+            <!--  html 팝업  -->
+            <div class="ad__contents">
+                <!-- h3 class="ad__h3" th:switch="${lang}">
+                	<span th:case="ko" th:text="${popUpMap.title_ko}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="en" th:text="${popUpMap.title_en}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="cn" th:text="${popUpMap.title_cn}">레이어 팝업 정보 카테고리</span>
+                	<span th:case="vn" th:text="${popUpMap.title_vn}">레이어 팝업 정보 카테고리</span>
+                </h3-->
+                <ul class="list -color-bullet _gutter">
+                    
+                    
+                    
+                    <p class="p"></p><p style="margin-bottom: 0px; font-family: Arial, Tahoma, sans-serif; font-size: 15px;"><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Trung tâm đăng ký visa Hàn Quốc xin kính chào Quý Khách!</span></p><p style="margin-bottom: 0px; font-family: Arial, Tahoma, sans-serif; font-size: 15px;"><br></p><p style="margin-bottom: 0px; font-family: Arial, Tahoma, sans-serif; font-size: 15px;"><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"=""><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Trung tâm quyết định mở rộng việc đặt lịch hẹn trước với các loại visa dưới đây nhằm giảm tải tình trạng này và mang lại </span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">sự thuận tiện tối đa cho khách hàng.�</span></span></p><ul class="list -color-bullet _gutter" style="list-style: none; margin-top: 10px !important;"><p><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">①�</span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Visa mã code (E-8,...)</span></p><p></p><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">②�</span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Visa thăm thân (C-3-1)</span><p></p><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">③�</span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Visa thăm nuôi (F-1-5)</span></ul><p style="margin-bottom: 0px; font-family: Arial, Tahoma, sans-serif; font-size: 15px;"><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"=""><br></span></p><p style="margin-bottom: 0px;"><font face="Times New Roman"><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">Thông tin chi tiết vui lòng tham khảo mục</span><b><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"=""> THÔNG BÁO.</span></b></font></p><p style="margin-bottom: 0px;"><font face="Times New Roman"><b><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">�</span></b></font></p><h3 class="view__subject" style="line-height: 1.2;"><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">THÔNG BÁO MỞ RỘNG VIỆC ĐẶT LỊCH HẸN�</span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"="">▶</span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"=""><a href="https://www.visaforkorea-hc.com/customercenter/notice/view/920" target="_blank">�</a></span><span style="font-family: " times="" new="" roman";="" font-size:="" 14px;"=""><a href="https://www.visaforkorea-hc.com/customercenter/notice/view/920" target="_blank" style="">THÔNG BÁO</a></span></h3><p></p>
+                </ul>
+                
+                
+                
+                
+            </div>
+            
+            <!--  image 팝업  -->
+            
+            
+            <div class="ad__footer">
+                <input type="checkbox" name="chk_Period_4;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" id="chk_Period_4;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="selection" onclick="javascript:popUpCheckClose(4)" value="1">
+                <label for="chk_today1" class="selection__label">
+                	<span class="p">Không xem lại trong hôm nay</span>
+                    
+                    
+                </label>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Contents -->
+    <div id="contents" class="main">
+        <div class="banners">
+           
+            <div class="banners__indicators">
+                <a href="#banner1" class="banners__indicator   -active">
+                	
+					
+					
+					<span>Chào mừng quý khách đến website của Trung tâm đăng ký visa Hàn Quốc</span>
+					
+                </a><a href="#banner2" class="banners__indicator ">
+                	
+					
+					
+					<span>253 Điện Biên Phủ, Phường Võ Thị Sáu, Quận 3, TP.HCM</span>
+					
+                </a><a href="#banner3" class="banners__indicator ">
+                	
+					
+					
+					<span>Quý khách có thể tham khảo Mục lục hồ sơ của mỗi loại visa tại 'Câu hỏi thường gặp'</span>
+					
+                </a><a href="#banner4" class="banners__indicator ">
+                	
+					
+					
+					<span>Welcome to Seoul Spring Festa</span>
+					
+                </a>
+            </div>
+
+            <div class="banners__list">
+                <div>
+                    
+                    
+                    
+                    
+                    <div id="banner1;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="banners__item   -active" style="background-image: url(/upload/mua-thu-han-quoc18_1.png)">
+                    
+	                    <div class="banners__text">
+	                       
+	                        <div class="banners__align">
+	                            <div class="banners__sub">
+	                            	
+									
+									
+									<span>KVAC HCM</span>
+									
+	                            </div>
+	                            <div class="banners__main">
+	                            	
+									
+									
+									<span>Chào mừng quý khách đến website của Trung tâm đăng ký visa Hàn Quốc</span>
+									
+	                            </div>
+	                            
+	                        </div>
+	                        
+	                    </div>
+                    </div>
+                </div>
+                <div>
+                    
+                    
+                    
+                    
+                    <div id="banner2;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="banners__item " style="background-image: url(images/hoa1.jpg)">
+                    
+	                    <div class="banners__text">
+	                       
+	                        <div class="banners__align">
+	                            <div class="banners__sub">
+	                            	
+									
+									
+									<span>Địa chỉ KVAC</span>
+									
+	                            </div>
+	                            <div class="banners__main">
+	                            	
+									
+									
+									<span>253 Điện Biên Phủ, Phường Võ Thị Sáu, Quận 3, TP.HCM</span>
+									
+	                            </div>
+	                            <div class="banners__buttons">
+	                                <a href="#" onclick="javascript:linkView('01','https://maps.app.goo.gl/7AHDjUggBr7r5YSM6','','Y')" class="banners__button">
+	                                	
+										
+										
+										<span>Xem bản đồ</span>
+										
+	                                </a>
+	                            </div>
+	                        </div>
+	                        
+	                    </div>
+                    </div>
+                </div>
+                <div>
+                    
+                    
+                    
+                    
+                    <div id="banner3;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="banners__item " style="background-image: url(images/30201-N-Seoul-Tower_1.jpg)">
+                    
+	                    <div class="banners__text">
+	                       
+	                        <div class="banners__align">
+	                            <div class="banners__sub">
+	                            	
+									
+									
+									<span>HƯỚNG DẪN HỒ SƠ</span>
+									
+	                            </div>
+	                            <div class="banners__main">
+	                            	
+									
+									
+									<span>Quý khách có thể tham khảo Mục lục hồ sơ của mỗi loại visa tại 'Câu hỏi thường gặp'</span>
+									
+	                            </div>
+	                            <div class="banners__buttons">
+	                                <a href="#" onclick="javascript:linkView('01','https://visaforkorea-hc.com/customercenter/faq/list/','','Y')" class="banners__button">
+	                                	
+										
+										
+										<span>'Câu hỏi thường gặp'</span>
+										
+	                                </a>
+	                            </div>
+	                        </div>
+	                        
+	                    </div>
+                    </div>
+                </div>
+                <div>
+                    
+                    
+                    
+                    
+                    <div id="banner4;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D" class="banners__item " style="background-image: url(images/festa.jpg)">
+                    
+	                    <div class="banners__text">
+	                       
+	                        <div class="banners__align">
+	                            <div class="banners__sub">
+	                            	
+									
+									
+									<span>Seoul Spring Festa</span>
+									
+	                            </div>
+	                            <div class="banners__main">
+	                            	
+									
+									
+									<span>Welcome to Seoul Spring Festa</span>
+									
+	                            </div>
+	                            <div class="banners__buttons">
+	                                <a href="#" onclick="javascript:linkView('01','https://seoulspringfesta.com/','','Y')" class="banners__button">
+	                                	
+										
+										
+										<span>GO</span>
+										
+	                                </a>
+	                            </div>
+	                        </div>
+	                        
+	                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quick">
+            <h2 class="_hidden">퀵메뉴</h2>
+            <ul class="quick__list">
+                <li class="quick__item">
+                    <a href="#" onclick="javascript:linkView('01','/info/visasample','0','N')" class="quick__link -icon2">
+                                
+								
+								
+								<span>Hướng dẫn viết đơn xin Visa</span>
+								
+                    </a>
+                </li>
+                <li class="quick__item">
+                    <a href="#" onclick="javascript:linkView('01','/visacenter/booking/insert','0','N')" class="quick__link -icon3">
+                                
+								
+								
+								<span>Đăng ký lịch hẹn</span>
+								
+                    </a>
+                </li>
+                <li class="quick__item">
+                    <a href="#" onclick="javascript:linkView('01','/visacenter/booking/search','0','N')" class="quick__link -icon4">
+                                
+								
+								
+								<span>Kiểm tra lịch hẹn</span>
+								
+                    </a>
+                </li>
+                <li class="quick__item">
+                    <a href="#" onclick="javascript:linkView('01','http://overseas.mofa.go.kr/vn-hochiminh-ko/brd/m_4020/list.do','0','Y')" class="quick__link -icon1">
+                                
+								
+								
+								<span>Kiểm tra thông tin Visa</span>
+								
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="suggest">
+            <div class="suggest__aligner">
+                <div class="suggest__infos">
+                    <div class="suggest__info">
+                        <h2 class="suggest__subject"><em class="suggest__emphasis">Đi đến chỉ dẫn visa</em></h2>
+                        <p class="suggest__desc">Kiểm tra nhanh loại Visa bạn đang tìm.</p>
+                    </div>
+                    <div class="suggest__info">
+                        <a href="http://www.visa.go.kr/openPage.do?MENU_ID=10101" class="suggest__button" target="_blank">Kiểm tra loại visa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="information__aligner">
+                <!-- h2 class="information__heading">
+                	<span th:text="${pageParam.center_nm}"></span> 
+                	<span th:text="#{index.visa.center}">비자신청센터</span> 
+                	<em class="information__emphasis" th:text="#{index.service.info}">서비스 안내</em>
+                </h2-->
+                <h2 class="information__heading">
+                	<span>KOREA VISA APPLICATION CENTER HCMC</span>  
+                	<em class="information__emphasis">Hướng dẫn dịch vụ</em>
+                </h2>
+                <div class="information__list">
+                    <div class="information__item">
+                        <h3 class="information__title">Thông báo</h3>
+                        <div class="information__content">
+                            <div class="notice">
+                                <ul class="notice__list">
+                                
+                                    <li class="notice__item">
+                                        <a href="#" class="notice__link" onclick="javascript:jsNoticeView('921');">
+                                            <div class="notice__badge -important">Quan trọng</div>
+                                            
+                                            
+                                            <div class="notice__subject">
+                                            	
+												
+												
+												<span>THÔNG BÁO VỀ QUY ĐỊNH ĐIỀN ĐƠN XIN CẤP VISA KẾT HÔN (F-6)</span>
+												
+                                            </div>
+                                            <div class="notice__date">2025.03.26</div>
+                                        </a>
+                                    </li>
+                                
+                                    <li class="notice__item">
+                                        <a href="#" class="notice__link" onclick="javascript:jsNoticeView('872');">
+                                            <div class="notice__badge -important">Quan trọng</div>
+                                            
+                                            
+                                            <div class="notice__subject">
+                                            	
+												
+												
+												<span>CÁC THÔNG TIN LIÊN QUAN ĐẾN VIỆC ĐĂNG KÝ XIN VISA</span>
+												
+                                            </div>
+                                            <div class="notice__date">2024.06.21</div>
+                                        </a>
+                                    </li>
+                                
+                                    <li class="notice__item">
+                                        <a href="#" class="notice__link" onclick="javascript:jsNoticeView('778');">
+                                            <div class="notice__badge -important">Quan trọng</div>
+                                            
+                                            
+                                            <div class="notice__subject">
+                                            	
+												
+												
+												<span>THÔNG BÁO THỜI GIAN THẨM TRA CÁC LOẠI HÌNH VISA</span>
+												
+                                            </div>
+                                            <div class="notice__date">2023.06.06</div>
+                                        </a>
+                                    </li>
+                                
+                                    <li class="notice__item">
+                                        <a href="#" class="notice__link" onclick="javascript:jsNoticeView('928');">
+                                            
+                                            <div class="notice__badge">thông báo</div>
+                                            
+                                            <div class="notice__subject">
+                                            	
+												
+												
+												<span>THÔNG BÁO THỜI GIAN NGHỈ GIỖ TỔ HÙNG VƯƠNG</span>
+												
+                                            </div>
+                                            <div class="notice__date">2025.03.31</div>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="/customercenter/notice/list" class="information__more">Xem thêm</a>
+                    </div>
+                    
+                    <div class="information__item">
+                        <h3 class="information__title">Lịch hẹn được đăng ký</h3>
+                        <div class="information__content">
+                            <div class="cal">
+                                
+                                <div id="calendar"></div>
+                        
+                                <ul class="cal__labels">
+                                    <li class="cal__label -book">Có thể đặt hẹn</li>
+                                    <li class="cal__label -done">Đã kết thúc đặt hẹn</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="/visacenter/booking/insert" class="information__more">Xem thêm</a>
+                    </div>
+                    
+                    <div class="information__item">
+                        <h3 class="information__title">Hướng dẫn chung</h3>
+                        <div class="information__content">
+                            <div class="guide">
+                                <div class="guide__time">
+                                    <div class="guide__title">Thời gian làm việc</div>
+                                    	<div class="guide__aligner">
+            								<!-- div th:if="${pageParam.center_cd == 'B00007' or pageParam.center_cd == 'SGN001'}" class="guide__align">    
+				                                <div class="guide__hour">
+	                                                <span class="guide__days" th:text="|#{common.column.week.mon} / #{common.column.week.wed} / #{common.column.week.fri}|">월/수/금</span> 08:30 ~ 17:30
+	                                            </div>
+	                                            <div class="guide__hour">
+	                                                <span class="guide__days" th:text="|#{common.column.week.tue} / #{common.column.week.thu}|">화/목</span> 08:30 ~ 19:30
+	                                            </div>
+	                                            <div class="guide__hour -weekend">
+	                                                <span class="guide__days" th:text="#{common.column.week.sat}">토</span> 08:30 ~ 11:30
+	                                            </div>
+	                                            <div class="guide__caption" th:text="#{index.holiday.desc.B00007}">대사관 휴무일 적용(베트남 공휴일 및 대한민국 국경일)</div>
+											</div-->
+											<div class="guide__align">    
+				                                <!-- 월수금, 화목, 주말 -->
+ 				                                <!--    
+	                                            <div class="guide__hour">
+	                                                <span class="guide__days" th:text="|#{common.column.week.mon} ~ #{common.column.week.fri}|">월 ~ 금</span> 08:30 ~ 17:00
+	                                            </div>
+	                                            <div class="guide__caption" th:text="#{index.holiday.desc.B00007}">대사관 휴무일 적용(베트남 공휴일 및 대한민국 국경일)</div>
+											    -->
+	                                            <div class="guide__hour">
+			                                        <span class="guide__days">Ngày thường</span> <span>8:30 - 17:00</span>
+	                                            </div>
+	                                            <div class="guide__caption">- nghỉ trưa 12 giờ-13 giờ // Nghỉ thứ 7, chủ nhật và các ngày lễ, tết</div>
+	                                            
+											</div>
+											
+											
+											
+			                                
+			                                
+        								</div>    
+                                </div>
+                                
+                                <div class="guide__contact">
+                                    <ul class="guide__list">
+                                        <li class="guide__item"><em class="guide__icon -phone">Số điện thoại</em><span>028-7101-1212 </span></li>
+                                        <li class="guide__item"><em class="guide__icon -email">Email</em><span>kvac.hcm@visaforkorea-hc.com</span></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <a href="/info/visit" class="information__more">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular">
+            <div class="popular__aligner">
+                <h2 class="popular__heading"><em class="popular__emphasis">Điểm tham quan nổi tiếng của Hàn Quốc</em></h2>
+                <div class="popular__content">
+                    <div class="popular__recommend">
+                        <a href="#" class="popular__link" onclick="javascript:jsTourMenuView('264337;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D', '76;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D')">
+                            <div class="popular__badge">BEST 1</div>
+                            <div class="popular__thumb" style="background-image: url(images/1568040_image2_1.jpg)"></div>
+                            <div class="popular__info">
+                                <div class="popular__title">Gyeongbokgung Palace (경복궁)</div>
+                                <div class="popular__desc">Gyeongbokgung Palace (경복궁)</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="popular__basic">
+                        <ul class="popular__list">
+                            <li class="popular__item">
+                                <a href="#" class="popular__link" onclick="javascript:jsTourMenuView('264152;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D', '76;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D')">
+                                    <div class="popular__badge">BEST 2</div>
+                                    <div class="popular__thumb" style="background-image: url(images/2553577_image2_1.jpg)"></div>
+                                    <div class="popular__info">
+                                        <div class="popular__title">Lotte World (롯데월드)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="popular__item">
+                                <a href="#" class="popular__link" onclick="javascript:jsTourMenuView('264550;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D', '76;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D')">
+                                    <div class="popular__badge">BEST 3</div>
+                                    <div class="popular__thumb" style="background-image: url(images/2477030_image2_1.jpg)"></div>
+                                    <div class="popular__info">
+                                        <div class="popular__title">Namsan Seoul Tower (남산서울타워)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="popular__item">
+                                <a href="#" class="popular__link" onclick="javascript:jsTourMenuView('561382;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D', '76;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D')">
+                                    <div class="popular__badge">BEST 4</div>
+                                    <div class="popular__thumb" style="background-image: url(images/2363672_image2_1.jpg)"></div>
+                                    <div class="popular__info">
+                                        <div class="popular__title">Bukchon Hanok Village (북촌한옥마을)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="popular__item">
+                                <a href="#" class="popular__link" onclick="javascript:jsTourMenuView('264122;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D', '76;jsessionid=63618ACF9E2F9D61E5C07B56E765D98D')">
+                                    <div class="popular__badge">BEST 5</div>
+                                    <div class="popular__thumb" style="background-image: url(images/1567936_image2_1.jpg)"></div>
+                                    <div class="popular__info">
+                                        <div class="popular__title">63 Square (63 스퀘어)</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="/tour/" class="popular__more">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--         <div class="guide-map"> -->
+<!--             <div class="guide-map__aligner"> -->
+<!--                 <h2 class="guide-map__heading" th:utext="#{index.guidebook.download}"><em class="guide-map__emphasis">가이드북</em> 다운로드</h2> -->
+<!--                 <div class="guide-map__controls"> -->
+<!--                     <button type="button" class="guide-map__control -prev"></button> -->
+<!--                     <button type="button" class="guide-map__control -play"></button> -->
+<!--                     <button type="button" class="guide-map__control -pause"></button> -->
+<!--                     <button type="button" class="guide-map__control -next"></button> -->
+<!--                 </div> -->
+<!--                 <ul class="guide-map__list"> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image1.png"  th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'GHA')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image2.png" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'SEL')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image3.png" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'K02')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image11.jpg" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'CJU')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image7.jpg" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'K01')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image6.png" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'KJO')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image8.jpg" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'AI2')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image9.jpg" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'A71')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image10.jpg" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'A53')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image4.png" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'PUS')|"></a> -->
+<!--                     </li> -->
+<!--                     <li class="guide-map__item"> -->
+<!--                         <a href="#none" class="guide-map__link" ><img src="../../images/temp/guide-map__image5.png" th:onclick="|javascript:jsTourMenuGuideView('#{tour.content.type09.value}', 'KRG')|"></a> -->
+<!--                     </li> -->
+                    
+<!--                 </ul> -->
+<!--             </div> -->
+<!--         </div> -->
+    </div>
+    <!-- //Contents -->
+    </div>
+<div>
+    <!-- confirm 문구창 -->
+	<div class="popup -alert -active -no-icon" id="divPopUp" style="display:none">
+        <div class="popup__aligner" id="divConfirm" style="display:none">
+            <div class="popup__header">
+                <h2 class="popup__heading">
+                	Alert
+                </h2>
+            </div>
+            <div class="popup__contents">
+                
+                <span id="divConfirmText"></span>  
+                
+                <div class="aligner -center _gap">
+                    <button type="button" class="button -large -primary" onclick="jsConfirm()">OK</button>
+                    <button type="button" class="button -large " onclick="jsPopUpClose()">Cancel</button>
+                </div>
+            </div>
+            <button type="button" class="popup__close" onclick="jsPopUpClose()">팝업닫기</button>
+        </div>
+        
+        <div class="popup__aligner" id="divAlert" style="display:none">
+            <div class="popup__header">
+                <h2 class="popup__heading">
+                	Alert
+                </h2>
+            </div>
+            <div class="popup__contents">
+                
+                 <span id="divAlertText"></span>  	
+                
+                <div class="aligner -center _gap">
+                    <button type="button" class="button -large -primary" onclick="jsPopUpClose()">OK</button>
+                </div>
+            </div>
+            <button type="button" class="popup__close" onclick="jsNoticeClose()">팝업닫기</button>
+        </div>
+        
+        <div class="popup__aligner" id="divActionAlert" style="display:none">
+            <div class="popup__header">
+                <h2 class="popup__heading">
+                	Alert
+                </h2>
+            </div>
+            <div class="popup__contents">
+                
+                 <span id="divActionAlertText"></span>  	
+                
+                <div class="aligner -center _gap">
+                    <button type="button" class="button -large -primary" onclick="jsPopUpClose();jsNextAction()">OK</button>
+                </div>
+            </div>
+            <button type="button" class="popup__close" onclick="jsPopUpClose();jsNextAction()">팝업닫기</button>
+        </div>
+        
+        <div class="popup__aligner" id="divLoading" style="display:none">
+            <div class="loading">
+            	<div class="loading__icon">
+                	<img src="images/ico_loading.gif" class="loading__img">
+                </div>
+            </div> 
+        </div>
+    </div>
+	<!-- confirm 문구창 -->
+	
+    
+    <!-- Footer -->
+    <div class="footer">
+        <div class="top">
+            <a href="#wrap" class="top__button">문서 처음으로 가기</a>
+        </div>
+
+        <div class="snb">
+            <h2 class="_hidden">바로가기 메뉴</h2>
+            <ul class="snb__list">
+                <li class="snb__item"><a href="/customercenter/notice/list" class="snb__link">Trung tâm khách hàng</a></li>
+                <li class="snb__item"><a href="/sitemap" class="snb__link">Bản đồ trang Website</a></li>
+                <li class="snb__item"><a href="/customercenter/terms/view/01" class="snb__link">Điều khoản sử dụng</a></li>
+                <li class="snb__item"><a href="/customercenter/terms/view/02" class="snb__link">Chính sách bảo mật thông tin cá nhân</a></li>
+            </ul>
+        </div>
+
+        <div class="site">
+            <div class="site__info">
+                <div class="site__images">
+                    
+                    <img src="images/footer-logo__us.png" class="site__image">
+                </div>
+    
+                <div class="site__text">
+                    <ul class="site__list">
+                        <li class="site__item">HanaTour</li>
+                        <li class="site__item"><span>Địa chỉ</span>：<span>253 Điện Biên Phủ, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh</span> <span>028-7101-1212 </span>���<span></span></li>
+                    </ul>
+                    
+                    <h2 class="_hidden">저작권</h2>
+                    
+                    <p class="site__copyright">Copyright�Korea Visa Application Center</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Footer -->
+     	
+	<!-- 사용자 스크립트 영역이 들어감 -->
+	<form id="tourMenuForm" name="tourMenuForm">
+		<input type="hidden" name="flag" id="tm_flag">
+		<input type="hidden" name="perPageNum" id="tm_perPageNum" value="8">
+		<input type="hidden" name="orderby" id="tm_orderby" value="R">
+		<input type="hidden" name="areacode" id="tm_areacode" value="1">
+		<input type="hidden" name="contenttypeCode" id="tm_contenttypeCode" value="">
+		<input type="hidden" name="contenttype" id="tm_contenttype">
+	</form>
+	
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/slick-1.9.0.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/dev.js"></script>
+	
+	
+
+<script src="js/jquery.validate.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script>
+<script type="text/javascript">
+
+	var temp_month = "";
+	
+	var temp_day = ''; 
+	var temp_hour = '';
+	var temp_minute = '';
+	
+	$("#calendar").datepicker({
+        dateFormat: "yy-mm-dd",
+        monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+        dayNamesMin: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+        showMonthAfterYear: true,
+        constrainInput: false,
+        minDate:'+1',
+        yearSuffix: " -",
+        showMonthAfterYear: true,
+        constrainInput: false,
+        beforeShowDay: function(day) {
+	    	var di = parseInt($.datepicker.formatDate('dd', day));
+	    	 return [false, "", "calendar_day_"+di];
+	    },
+        beforeShow: function(elem, obj) {
+            if ( $('#' + obj.id).attr('date-min') ) {
+                $(this).datepicker('option', 'minDate', $('#' + obj.id).attr('date-min'));
+            } else {
+                $(this).datepicker('option', 'minDate', '+1');
+            }            
+        } ,
+        onChangeMonthYear: function(year, month, widget) {
+        	var dateStr = year + "-" + (month >= 10?month : "0"+month);
+        	temp_month = dateStr;
+        }
+    });
+
+	$(function() { 
+		var d = new Date();
+                var last = new Date(d.getFullYear(), d.getMonth() + 1, 0);
+
+                if(last.getDate() == d.getDate())   d.setDate(d.getDate() + 1 );
+
+                month = d.getMonth() + 1
+                year = d.getFullYear();
+
+                if (month < 10) month = '0' + month;		
+		
+		jsVisitCntJSON('month',[year, month ].join('-')); 
+	 
+		 
+		$(document).on('click', '.ui-datepicker-next', function () {
+			if(temp_month != "") jsVisitCntJSON('month',temp_month);  
+		});
+		
+		$(document).on('click', '.ui-datepicker-prev', function () {
+			if(temp_month != "") jsVisitCntJSON('month',temp_month);  
+		});
+	});
+	
+	// 달력 월 /일 클릭 시
+	//  -  type = 'month'  
+	//     val  = '2018-01'
+	//  -  type = 'day'  
+	//     val  = '2018-01-17'
+	function jsVisitCntJSON(type, val){
+		
+	    $.ajax({ 
+			url: "/visacenter/booking/visitCntInfo" , 
+			method:"post",
+			contentType: 'application/json',
+			dataType : 'json' , 
+			data :JSON.stringify({
+				visit_type : type,
+				visit_val : val,
+				center_cd : "B00007"
+			}),
+			success: function(list) { 
+				if(list != null && list.length > 0 ){
+					  if(type == 'month'){
+						  jsMonthView(list); 
+					  } else if (type == 'day'){
+						  jsDayView(list);
+						  if(val != $('#visit_sche_day').val()){
+							  temp_day = ''; 
+							  temp_hour = '';
+							  temp_minute = '';
+							  $('#visit_sche_day').val(val);
+							  $('#txt_visit_sche_dt').html( "Ch\u1ECDn ng\u00E0y \u0111\u0103ng k\u00FD l\u1ECBch h\u1EB9n ");
+							  $('#visit_sche_time').val("");
+						  }
+					  }  
+				}else{
+					if (type == 'day') alert("Kh\u00F4ng c\u00F3 l\u1ECBch h\u1EB9n th\u00EDch h\u1EE3p.");
+				}
+			},
+			 error : function(jqXHR, textStatus, errorThrown){
+				    if (type == 'day') alert("Kh\u00F4ng c\u00F3 l\u1ECBch h\u1EB9n th\u00EDch h\u1EE3p.");
+			 }
+		});
+	}
+		
+	function jsMonthView(list){
+		 //yongjun
+		 // 프로그레스 바 처리
+		 	var addClass = "";
+		 	var html = "";
+		 	for(var index in list){
+		 	 	var data = list[index];
+		 	 	// ex ) data.work_day = 2019-01-23
+		 	 	if(data.work_day.length == 10){
+		 	 		var day = parseInt(data.work_day.substring(8, 10)); 
+		 	 		addClass = "";
+		 	 	 	html = day; 
+		 		    if(data.check){
+		 			   addClass = " -book";
+		 			   html = "<a href='#' class='ui-state-default' onclick='javascript:jsVisitCntJSON(\"day\",\""+data.work_day+"\");'>"+day+"</a>";
+		 		    }else{ 
+		 			  addClass = " -done";
+		 			  html = "<span class='ui-state-default'>"+day+"</span>"; 
+		 		    }
+		 		   $('td[title="calendar_day_'+day+'"]').addClass( addClass);
+		 		   $('td[title="calendar_day_'+day+'"]').html(html);
+				}
+		 	}
+		 	
+	}	
+
+	function popUpClose(id){
+		document.getElementById(id).style.display = "none";
+	}
+	
+	function popUpCheckClose(id){
+		var  checkDay = $("#chk_Period_"+id).val();
+		var todayDate = new Date();
+		todayDate.setDate(todayDate.getDate() + checkDay);
+		document.cookie="popUp_"+id+"=" + escape("popUp_"+id) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+		document.getElementById("popUp_"+id).style.display = "none";
+		 
+	}
+	
+	function linkView(link_type, url, link_no, newWindow){
+		
+		if(link_type == '01'){
+		
+			if(newWindow == "Y"){
+				var openNewWindow = window.open("about:blank");
+				openNewWindow.location.href = url;
+			}else{
+				window.location.href=url;		
+			}
+			
+		}else if(link_type == '02'){
+			
+			if(newWindow == "Y"){
+				var openNewWindow = window.open("about:blank");
+				openNewWindow.location.href = "/customercenter/notice/view/"+link_no;
+			}else{
+				window.location.href = "/customercenter/notice/view/"+link_no;
+			}
+			
+		}
+		
+	}
+	
+	function jsNoticeView(seq){
+		var obj = document.searchForm;
+		obj.method = "post";
+		obj.action="/customercenter/notice/view/"+seq; 
+		obj.submit();
+	}
+	
+</script>
+
+	
+	<script language="javascript">
+	
+	function jsMove(selType, selValue){
+		var obj = document.initFrm;
+		
+		if(selType == "lang"){
+			obj.lang_type.value = selValue;
+		}else{
+			obj.center_cd.value = selValue;
+		}
+		
+		obj.target = "";
+		obj.method = "post";
+		obj.action = "/";
+		obj.submit();
+	}
+	
+	function jsTourMenuMove(contenttype, contenttypecode){
+		
+		var obj = document.tourMenuForm;
+		obj.contenttype.value = contenttype;
+		obj.contenttypeCode.value = contenttypecode;
+		obj.flag.value = "Y";
+		
+		obj.target = "";
+		obj.method = "post";
+		obj.action="/tour/list/"; 
+		obj.submit();
+		
+	}
+	
+	function jsTourMenuGuide(contenttype, contenttypecode) {
+		
+		var obj = document.tourMenuForm;
+		obj.contenttype.value = contenttype;
+		obj.contenttypeCode.value = contenttypecode;
+		obj.flag.value = "Y";
+		
+		obj.target = "";
+		obj.method = "post";
+		obj.action="/tour/glist"; 
+		obj.submit();
+	}
+	
+	function jsTourMenuGuideView(contenttypeid, guideCode) {
+		
+		var obj = document.tourMenuForm;
+		obj.contenttype.value= contenttypeid;
+		
+		if(contenttypeid == '76') obj.contenttypeCode.value= '01';
+		else if(contenttypeid == '78') obj.contenttypeCode.value= '02';
+		else if(contenttypeid == '85') obj.contenttypeCode.value= '03';
+		else if(contenttypeid == '77') obj.contenttypeCode.value= '04';
+		else if(contenttypeid == '75') obj.contenttypeCode.value= '05';
+		else if(contenttypeid == '80') obj.contenttypeCode.value= '06';
+		else if(contenttypeid == '79') obj.contenttypeCode.value= '07';
+		else if(contenttypeid == '82') obj.contenttypeCode.value= '08';
+		else if(contenttypeid == '99') obj.contenttypeCode.value= '09';
+		else obj.contenttypeCode.value= '01';
+		
+		
+		obj.method = "post";
+		obj.action="/tour/gview/"+guideCode; 
+		obj.submit();
+	}
+	
+	function jsTourMenuView(contentid, contenttypeid) {
+		var obj = document.tourMenuForm;
+		obj.contenttype.value= contenttypeid;
+		if(contenttypeid == '76') obj.contenttypeCode.value= '01';
+		else if(contenttypeid == '78') obj.contenttypeCode.value= '02';
+		else if(contenttypeid == '85') obj.contenttypeCode.value= '03';
+		else if(contenttypeid == '77') obj.contenttypeCode.value= '04';
+		else if(contenttypeid == '75') obj.contenttypeCode.value= '05';
+		else if(contenttypeid == '80') obj.contenttypeCode.value= '06';
+		else if(contenttypeid == '79') obj.contenttypeCode.value= '07';
+		else if(contenttypeid == '82') obj.contenttypeCode.value= '08';
+		else if(contenttypeid == '99') obj.contenttypeCode.value= '09';
+		else obj.contenttypeCode.value= '01';
+
+		obj.method = "post";
+		obj.action="/tour/view/"+contentid; 
+		obj.submit();
+	}
+	
+	var vcCookieDT = new Date();
+	vcCookieDT.setDate(vcCookieDT.getDate() + 3);
+	document.cookie="visaforkorea-hc.com_Lang=vn; path=/; expires=" + vcCookieDT.toGMTString() + ";"
+	
+	function jsMoveLang(lang){
+		 var selectedOption = lang;
+	     if (selectedOption != '') {
+	     	var curr_page = window.location.href,
+	         next_page = "";
+		        if(curr_page.indexOf("?") > -1) {
+		        	var pos = curr_page.indexOf("lang=");
+		        	if(pos > -1){
+		        		next_page = curr_page.substr(0,pos) + 'lang='+selectedOption + curr_page.substr(pos+7);
+		        	}else{
+		        		next_page = curr_page+"&lang="+selectedOption;
+		        	}
+		            
+		        } else {
+		            next_page = curr_page+"?lang="+selectedOption;
+		        }
+		        
+		        if(next_page.indexOf("/tour/") > -1){
+		        	
+		        	var obj = document.tourMenuForm;
+		        	obj.flag.value = "Y";
+		        	
+		        	if(lang == 'ko'){
+		        		obj.contenttype.value = "";
+		        	}else{
+		        		obj.contenttype.value = "";
+		        	}
+		       		obj.target = "";
+		    		obj.method = "post";
+		    		if(next_page.indexOf("/tour/view/") > -1){
+		    			obj.action = "/tour/list/?&lang="+selectedOption;
+		    		}else{
+		    			obj.action = next_page;
+		    		}
+		    		
+		    		obj.submit();
+		        }else{
+		        	window.location = next_page;	
+		        }
+		        
+	     }
+	}
+	
+	function jsLoading(loadingType){
+		
+		if(loadingType == 'start'){
+			$("#divPopUp").show();
+			$("#divConfirm").hide();
+			$("#divAlert").hide();
+			$("#divLoading").show();
+			$("#divActionAlert").hide();
+		}else if(loadingType == 'end'){
+			jsPopUpClose();
+		}
+		 
+	}
+	
+	function jsPopUpClose(){
+		$("#divNoticePopUp").hide(); 
+		$("#divPopUp").hide();
+		$("#divConfirm").hide();
+		$("#divAlert").hide();
+		$("#divLoading").hide();
+		$("#divActionAlert").hide();
+	}
+	
+	function jsAlertView(msg){
+		$("#divAlertText").html(msg);
+		$("#divPopUp").show();
+		$("#divConfirm").hide();
+		$("#divAlert").show();
+		$("#divLoading").hide();
+		$("#divActionAlert").hide();
+	}
+	
+	function jsConfirmView(msg){
+		$("#divConfirmText").html(msg);
+		$("#divPopUp").show();
+		$("#divConfirm").show();
+		$("#divAlert").hide();
+		$("#divLoading").hide();
+		$("#divActionAlert").hide();
+	}
+	
+	function jsActionView(msg){
+		$("#divActionAlertText").html(msg);
+		$("#divPopUp").show();
+		$("#divConfirm").hide();
+		$("#divAlert").hide();
+		$("#divLoading").hide();
+		$("#divActionAlert").show();
+	}
+	
+	</script>
+	
+	
+	
+	
+	
+	<div>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-74046348-4"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-74046348-4', {'linker': {'domains': ['www.visaforkorea-vt.com', 'www.visaforkorea-hc.com', 'visaforkorea-vt.com', 'visaforkorea-hc.com', 'sgn.visaforkorea-hc.com']}});
+		</script>
+	</div> 
+</div>
+<!-- //Wrap -->
+ 
+
+</div></body></html>
