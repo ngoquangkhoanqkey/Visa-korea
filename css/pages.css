@@ -209,22 +209,22 @@
 [lang="ko"] .page__logo_vn {
     width: 92px;
     height: 63px;
-    background: url(../images/logo__us.png) no-repeat;
+    background: url(../images/img_logo_kore.jpg) no-repeat;
 }
 [lang="zh-CN"] .page__logo_vn {
     width: 90px;
     height: 63px;
-    background: url(../images/logo__us.png) no-repeat;
+    background: url(../images/img_logo_kore.jpg) no-repeat;
 }
 [lang="vi"] .page__logo_vn {
-    width: 90px;
-    height: 63px;
-    background: url(../images/logo__us.png) no-repeat;
+    width: 93px;
+    height: 81%;
+    background: url(../images/img_logo_kore_1.jpg) no-repeat;
 }
 [lang="en"] .page__logo_vn {
     width: 90px;
     height: 63px;
-    background: url(../images/logo__us.png) no-repeat;
+    background: url(../images/img_logo_kore_1.jpg) no-repeat;
 }
 .header.-active .page__logo_vn {
     background-position: 0 -63px;
